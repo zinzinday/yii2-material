@@ -1,0 +1,30 @@
+{
+    "name": "yiidoc/yii2-material",
+    "description": "Material design theme for Bootstrap 3.",
+    "keywords": [
+        "yii",
+        "jquery",
+        "material"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiidoc/yii2-material/issues",
+        "source": "https://github.com/yiidoc/yii2-material"
+    },
+    "authors": [
+        {
+            "name": "Nghia Nguyen",
+            "email": "yiidevelop@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/bootstrap-material-design": "0.1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\material\\": ""
+        }
+    }
+}
